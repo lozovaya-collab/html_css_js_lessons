@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+}
+
+.headline {
+    margin: 0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
