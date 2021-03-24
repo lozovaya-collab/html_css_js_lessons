@@ -1,12 +1,4 @@
-body {
-    margin: 0 auto;
-}
-
-.headline {
-    margin: 0;
-}
-
-a {
-    color: red;
-    text-decoration: none;
+.first_page {
+    display: flex;
+    border: 1px solid black;
 }
