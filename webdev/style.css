@@ -8,8 +8,9 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 1600px;
     height: 95px;
+    display: flex;
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 926px;
 }
 
 .header_menu_link a {
@@ -32,34 +32,93 @@ body {
 
 .header_menu_links_left {
     display: flex;
-    width: 246px;
-    margin-right: 0;
-    justify-content: space-between;
 }
 
 .header_menu_links_rigth {
     display: flex;
-    width: 246px;
-    margin-left: 0;
-    justify-content: space-between;
-}
-
-.header_menu_links_rigth div {
-    margin-left: 34px;
-}
-
-.header_menu_link img {
-    width: 44px;
-    height: 45px;
 }
 
 .header_menu_link.logo {
-    margin-left: 64px;
-    margin-right: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 676px;
+    margin-left: -13px;
 }
 
 .first_block {
     background-image: url('./assets/bg-image.png');
     width: 1600px;
     height: 744px;
+    /* padding-top: 95px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.first_block__wrapper {
+    display: flex;
+    padding-top: 142px;
+    height: 425px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first_block__wrapper_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 221px;
+}
+
+.first_block__wrapper_headline {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    margin-left: 2px;
+}
+
+.first_block__wrapper_subtitle {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    width: 504px;
+    height: 50px;
+    margin-top: -6px;
+}
+
+.first_block__wrapper_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 46px;
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.firts_block__wrapper_social_nets {
+    width: 202px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
