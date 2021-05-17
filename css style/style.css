@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+    /* обнулящие стили */
+    /* margin: 0 auto; */
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url('./fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-li";
+    font-weight: 300;
+    font-style: italic;
+    src: url('./fonts/Roboto-LightItalic.ttf');
+}
+
+body {
+    font-size: 90px;
+}
+
+.container {
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid black;
+    /* фоновый цвет/изображение */
+    background-color: rgba(255, 0, 0, 0.192);
+    /* background-image: url('../images/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: url('../images/maxresdefault.jpg') no-repeat center;
+    background: none;
+    /* цвет шрифта */
+    color: rgb(0, 0, 0);
+    /* размер шрифта */
+    /* font-size: 12.5em; */
+    font-size: 50px;
+    /* толщина шрифта */
+    font-weight: normal;
+    /* inherit наследует стиль родителя */
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
